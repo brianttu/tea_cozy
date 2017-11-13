@@ -1,0 +1,127 @@
+body{
+  font-size: 22px;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+}
+
+/* HEADER */
+
+.header{
+    height: 69px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: black;
+    top: 0px;
+}
+
+.header img{
+  padding-left: 10px;
+  height: 50px;
+}
+
+.header a{
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+/* MISSION */
+
+.mission{
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-top: 63px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.statement{
+  background-color: black;
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* TEA OF THE MONTH */
+
+.tea{display: inline-block;
+  flex: auto;
+  width: 1000px;
+  height: 600px;
+  justify-content: center;
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;}
+
+.pictures img{
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.pictures h4{margin-top: 10px;}
+
+.tea .pictures{display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  max-width: 1000px;
+  flex-flow: row wrap;}
+
+/* LOCATIONS */
+
+.locations{background-image: url("../../resources/images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 0px;}
+
+#location{margin: 0px;}
+
+.shops{
+  width: 980px;
+  height: 275px;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-content: space-around;
+  display: inline-flex;
+}
+
+.place{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 275px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.place p{padding: 8px 0;}
+
+/* FOOTER */
+
+.copyright h5{text-align: left;
+  padding-left: 20px;}
